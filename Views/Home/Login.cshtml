@@ -1,0 +1,14 @@
+@model MeuProjetoAspNetCore.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+<form class="login-form" method="post" asp-action="Login">
+    <div class="form-group">
+        <label for="fazerlogin" class="login-title">Fazer Login</label>
+            <p></p>
+        <label for="emailOrPhone">E-mail ou número do telefone celular</label>
+        <input type="text" class="form-control" id="emailOrPhone" name="emailOrPhone" required >
+        <button type="submit" class="btn btn-primary">Continuar</button>
+    </div>
+</form>
