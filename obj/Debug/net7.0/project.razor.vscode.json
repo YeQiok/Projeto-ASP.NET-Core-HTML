@@ -24060,6 +24060,11 @@
       "FilePath": "c:\\EstudosC#\\MeuProjetoAspNetCore\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\EstudosC#\\MeuProjetoAspNetCore\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }

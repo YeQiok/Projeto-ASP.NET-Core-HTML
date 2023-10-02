@@ -47,6 +47,11 @@ namespace MeuProjetoWeb
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                
+                endpoints.MapControllerRoute(
+                    name: "login",
+                    pattern: "Account/Login",
+                    defaults: new { controller = "Account", action = "Login"});
             });
         }
     }
